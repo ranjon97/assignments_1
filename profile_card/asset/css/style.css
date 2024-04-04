@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Montserrat;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(248, 248, 248);
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    width: 40%;
+    height: 65%;
+    background-color: rgb(195, 47, 245);
+    text-align: center;
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 1px solid rgba(102, 51, 153, 0.407);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px rgba(6, 6, 6, 0.177);
+    transition: 0.4s ease-in-out;
+    
+}
+.content:hover{
+    box-shadow: none;
+}
+
+.content img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid rgba(152, 152, 152, 0.514);
+    
+}
+
+.profile{
+    /* background-color: aqua; */
+    padding: 20px;
+    background-color: rgb(248, 248, 248);
+}
+
+.content .card-text{
+    padding: 20px 30px 30px 30px;
+    
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.content .card-text .title{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.3em;
+    padding: 10px;
+}
+.content .card-text .sub-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    padding-bottom: 10px;
+
+}
+
+.content .card-text .description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    padding-bottom: 10px;
+}
+
+.content .card-text .contact-info ul li{
+    list-style: none;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.content .card-text .contact-info a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.4s ease-in-out;
+
+    
+}
+.content .card-text .contact-info i{
+    font-size: 15px;
+    padding-right: 10px;
+}
+.content .card-text .contact-info a:hover{
+    margin-left: 15px;
+    color: black;
+}
